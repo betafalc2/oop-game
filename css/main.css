@@ -15,6 +15,10 @@ body {
 #player {
     background-color: blue;
     position: absolute;
-    bottom: 0vw;
-    left: 0vh;
+
+}
+
+.obstacle {
+    background-color: purple;
+    position: absolute;  /*this relates to the postion of the previous container, in this case the board*/
 }
